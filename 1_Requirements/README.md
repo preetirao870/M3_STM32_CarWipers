@@ -1,13 +1,13 @@
 **SOFTWARE REQUIRED:**
 
-    STM32 CubeIDE
-    QEMU
-    openocd
-    toolchain
+ STM32 CubeIDE
+ QEMU
+ openocd
+ toolchain
  
  **COMPONENTS:**
  
-    1.STM32F407VG MICROCONTROLLER BOARD
+  STM32F407VG MICROCONTROLLER BOARD
  
  **DESCRIPTION:**
        STM32CubeIDE, an all-in-one development tool with peripheral configuration, code generation, code compilation, and debug features.STM32CubeIDE is an advanced C/C++ development platform with peripheral configuration, code generation, code compilation, and debug features for STM32 microcontrollers and microprocessors. It is based on the Eclipse®/CDT™ framework and GCC toolchain for the development, and GDB for the debugging. It allows the integration of the hundreds of existing plugins that complete the features of the Eclipse® IDE.STM32CubeIDE integrates STM32 configuration and project creation functionalities from STM32CubeMX to offer all-in-one tool experience and save installation and development time. After the selection of an empty STM32 MCU or MPU, or preconfigured microcontroller or microprocessor from the selection of a board or the selection of an example, the project is created and initialization code generated. 
