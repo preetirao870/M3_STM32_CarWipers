@@ -10,8 +10,7 @@
     1.STM32F407VG MICROCONTROLLER BOARD
  
  **DESCRIPTION:**
- 
-     STM32CubeIDE, an all-in-one development tool with peripheral configuration, code generation, code compilation, and debug features.STM32CubeIDE is an advanced C/C++ development platform with peripheral configuration, code generation, code compilation, and debug features for STM32 microcontrollers and microprocessors. It is based on the Eclipse®/CDT™ framework and GCC toolchain for the development, and GDB for the debugging. It allows the integration of the hundreds of existing plugins that complete the features of the Eclipse® IDE.STM32CubeIDE integrates STM32 configuration and project creation functionalities from STM32CubeMX to offer all-in-one tool experience and save installation and development time. After the selection of an empty STM32 MCU or MPU, or preconfigured microcontroller or microprocessor from the selection of a board or the selection of an example, the project is created and initialization code generated. 
+       STM32CubeIDE, an all-in-one development tool with peripheral configuration, code generation, code compilation, and debug features.STM32CubeIDE is an advanced C/C++ development platform with peripheral configuration, code generation, code compilation, and debug features for STM32 microcontrollers and microprocessors. It is based on the Eclipse®/CDT™ framework and GCC toolchain for the development, and GDB for the debugging. It allows the integration of the hundreds of existing plugins that complete the features of the Eclipse® IDE.STM32CubeIDE integrates STM32 configuration and project creation functionalities from STM32CubeMX to offer all-in-one tool experience and save installation and development time. After the selection of an empty STM32 MCU or MPU, or preconfigured microcontroller or microprocessor from the selection of a board or the selection of an example, the project is created and initialization code generated. 
 
 
 **STM32F407VG:**
@@ -24,8 +23,7 @@
    Flexible static memory controller supporting Compact Flash, SRAM, PSRAM, NOR and NAND memories.
    
    **WORKING PRINCIPLE:**
-   
-    Firstly we have to assume that the automobile is microcontroller.In this there is only one button(switch) and four LED'S those are red, green, blue, yellow, orange. When we press the button, first red led should turn ON,if the user button is pressed and held for 2 secs,then the wiper will start. Then the wiper will turn off,On press of the user input, Blue, Green and Orange LEDs come ON one at a time with the set frequency, The frequency changes on every alternate key press, 3 frequency levels with 1, 4 and 8 Hz.Then the wiper is turned off. then switching the wiper the LED glow pattern stops on the 4th press; the wiper action starts next press onwards as mentioned in step 2.then the last step is that when we press on the button the Ignition Key Position at Lock,the Red LED is OFF, if the user button is pressed and held for 2 secs.
+       Firstly we have to assume that the automobile is microcontroller.In this there is only one button(switch) and four LED'S those are red, green, blue, yellow, orange. When we press the button, first red led should turn ON,if the user button is pressed and held for 2 secs,then the wiper will start. Then the wiper will turn off,On press of the user input, Blue, Green and Orange LEDs come ON one at a time with the set frequency, The frequency changes on every alternate key press, 3 frequency levels with 1, 4 and 8 Hz.Then the wiper is turned off. then switching the wiper the LED glow pattern stops on the 4th press; the wiper action starts next press onwards as mentioned in step 2.then the last step is that when we press on the button the Ignition Key Position at Lock,the Red LED is OFF, if the user button is pressed and held for 2 secs.
     
     
 **USES**
@@ -76,6 +74,7 @@ Week Focus on Process Innovations
 
 
 **OPPORTUNITIES**
+
 Emerging New Markets
 
 Technological Development
@@ -87,6 +86,7 @@ Technological Lock in of Product
 
 
 **THREATS**
+
 Low Bargaining Power Buyers
 
 Highly REgulated Industry
