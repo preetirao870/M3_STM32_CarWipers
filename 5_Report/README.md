@@ -6,6 +6,7 @@ The project is about the implementing of the car wiper control system. In this p
 A current limiting resistor connects four user LEDs to the PD12, PD13, PD14, and PD15 pins of PORTD on the Discovery board. Firstly when we press on the button and hold it for two seconds then the red ignition will be on at the acc,then after sometime we have to again press the button for the desired sec,the it should on ble led,then so on like green and orange. And at the last the ignition should be turned off.
 The advantage is that  it is quite easy for use it,less energy is consumed. But sometimes when water falls squarely on the rain sensor, the mechanism activates.
 
+**LITERATURE REVIEW**
 
 **STM32F407VG**
 
@@ -14,30 +15,43 @@ The STM32F407 belongs to the family of microcontrollers and has a core of ARM co
 This module comprises of large operating speed embedded memory units such as flash memory having a storage capacity of one megabyte, static random access memory of one ninety kilobytes, with that has four-kilo bytes Static ram as back up memory unit.
 It printing and scanning machines this device is used. Heat ventilation AC system, security systems, also used this device. In different types of devices used in homes comprises of this module.
 
-  *Features of STM32F407
+ **Features of STM32F407**
+  
 It comprises of thirty two-bit central processing unit having a core of Cortex M4.
+
 It has a flash memory of one megabytes.
+
 It contains one ninety-two kilobytes static ram with the sixty-four-kilo byte core coupled memory.
+
 There are some additional memories units exits in it which are compact flash, NAND, NOR, SRAM.
+
 There is a voltage range of operating volts is 1.8 to 3.6 volts.
+
 Crystal oscillator having frequency four to twenty-six megahertz is used in it.
+
 It uses a thirty two-kilo hertz oscillator to calibrate the RTC module.
 
-  *WORKING PRINCIPLE*
+**WORKING PRINCIPLE**
   
+ Firstly we have to assume that the automobile is microcontroller.In this there is only one button(switch) and four LED'S those are red, green, blue, yellow, orange. When we press the button, first red led should turn ON,if the user button is pressed and held for 2 secs,then the wiper will start. Then the wiper will turn off,On press of the user input, Blue, Green and Orange LEDs come ON one at a time with the set frequency, The frequency changes on every alternate key press, 3 frequency levels with 1, 4 and 8 Hz.Then the wiper is turned off. then switching the wiper the LED glow pattern stops on the 4th press; the wiper action starts next press onwards as mentioned in step 2.then the last step is that when we press on the button the Ignition Key Position at Lock,the Red LED is OFF, if the user button is pressed and held for 2 secs.
   
   **ABOUT STM32F407 DISCOVERY BOARD**
   
   ![stm32f4_discovery_1](https://user-images.githubusercontent.com/101978434/168297101-4180baaa-cef0-4d20-a20a-df23bb9d43df.jpg)
+  
   This project gives almost all the basic information needed to get started with STM32F407 Discovery Board and also development of driver code.
 
 Software Tool : STM32cubeIDE, for more information visit: STM32CubeIDE
+
 Hardware Used : STM32F4 DISCOVERY kit, for more information visit: STM32F4 DISCOVERY
+
 For installation of STM32CubeIDE refer Youtube
 
 **Overview of STM32F407VGT6 Microcontroller:**
+
 ![OVERVIEW](https://user-images.githubusercontent.com/101978434/168297385-80614e28-cbd7-44a8-839c-cdcff1f587e6.png)
-he STM32F4DISCOVERY Discovery kit leverages the capabilities of the STM32F407 high-performance microcontrollers, to allow users to develop audio applications easily. It includes an ST-LINK/V2-A embedded debug tool, one ST-MEMS digital accelerometer, one digital microphone, one audio DAC with integrated class D speaker driver, LEDs, push-buttons, and a USB OTG Micro-AB connector.Specialized add-on boards can be connected by means of the extension header connectors.
+
+The STM32F4DISCOVERY Discovery kit leverages the capabilities of the STM32F407 high-performance microcontrollers, to allow users to develop audio applications easily. It includes an ST-LINK/V2-A embedded debug tool, one ST-MEMS digital accelerometer, one digital microphone, one audio DAC with integrated class D speaker driver, LEDs, push-buttons, and a USB OTG Micro-AB connector.Specialized add-on boards can be connected by means of the extension header connectors.
 
 
 **OUTPUTS AND RESULTS**
