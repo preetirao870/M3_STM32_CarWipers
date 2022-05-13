@@ -1,3 +1,3 @@
-ABSTRACT
+# ABSTRACT
 
 When raining or snowing, windshield wiper system is very important for safety of driver. However, manual wiper system frequently needed to be controlled for sufficient visibility and it was very uncomfortable. So, rain sensor which controls automatically was developed. This rain sensor technology uses optical sensing technique sensed the rainfall by receiving reflected light of rain dropped on the windshield. The technology used optical sensor was simple and easy to implement as a rain sensing system in the car. However, it is sometime shown low accuracy to measure rainfall on the windshield when affected by ambient lights from surroundings. It is also given inconvenience to the driver to control the car. In this project using STM32 IDE software we are implementing the wiper control using one button and 4 led's.
