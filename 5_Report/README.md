@@ -1,4 +1,4 @@
-**INTRODUCTION**
+# **INTRODUCTION**
 
 A windscreen wiper or windshield wiper is a device used to remove rain, snow, ice and debris from a windscreen or windshield. Almost all motor vehicles, including cars, trucks, train locomotives, watercraft with a cabin and some aircraft, are equipped with such wipers, which are usually a legal requirement.
 A wiper generally consists of a metal arm, pivoting at one end and with a long rubber blade attached to the other. The arm is powered by a motor, often an electric motor, although pneumatic power is also used in some vehicles. The blade is swung back and forth over the glass, pushing water or other precipitation from its surface.  The speed is normally adjustable, with several continuous speeds and often one or more "intermittent" settings. Most automobiles use two synchronized radial type arms, while many commercial vehicles use one or more pantograph arms.
@@ -6,7 +6,7 @@ The project is about the implementing of the car wiper control system. In this p
 A current limiting resistor connects four user LEDs to the PD12, PD13, PD14, and PD15 pins of PORTD on the Discovery board. Firstly when we press on the button and hold it for two seconds then the red ignition will be on at the acc,then after sometime we have to again press the button for the desired sec,the it should on ble led,then so on like green and orange. And at the last the ignition should be turned off.
 The advantage is that  it is quite easy for use it,less energy is consumed. But sometimes when water falls squarely on the rain sensor, the mechanism activates.
 
-**LITERATURE REVIEW**
+# **LITERATURE REVIEW**
 
 **STM32F407VG**
 
@@ -54,7 +54,7 @@ For installation of STM32CubeIDE refer Youtube
 The STM32F4DISCOVERY Discovery kit leverages the capabilities of the STM32F407 high-performance microcontrollers, to allow users to develop audio applications easily. It includes an ST-LINK/V2-A embedded debug tool, one ST-MEMS digital accelerometer, one digital microphone, one audio DAC with integrated class D speaker driver, LEDs, push-buttons, and a USB OTG Micro-AB connector.Specialized add-on boards can be connected by means of the extension header connectors.
 
 
-**OUTPUTS AND RESULTS**
+# **OUTPUTS AND RESULTS**
 
 ![board](https://user-images.githubusercontent.com/101978434/168326738-0758ef4a-c016-4aed-bce2-4bd9143f95a5.png)
 
@@ -70,6 +70,6 @@ The STM32F4DISCOVERY Discovery kit leverages the capabilities of the STM32F407 h
 
 
 
-**CONCLUSION**
+# **CONCLUSION**
 
 As almost everything described already for this design, we would like to say there are still numerous kinds of enhancements one can implement on this project to make it even more convenient. The project I have made and presented is quite efficient and it is cost effective also. It has great advantage of over the optical sensor covering all the design specifications together with the requirements of common man. The speed controlling mechanism can be added in this project which will make it work according to the intensity and speed of water coming on the sensor. The basic maneuvering is done only to make it cost effective and reliable.
