@@ -57,3 +57,9 @@ The STM32F4DISCOVERY Discovery kit leverages the capabilities of the STM32F407 h
 **OUTPUTS AND RESULTS**
 
 
+
+
+
+**CONCLUSION**
+
+As almost everything described already for this design, we would like to say there are still numerous kinds of enhancements one can implement on this project to make it even more convenient. The project I have made and presented is quite efficient and it is cost effective also. It has great advantage of over the optical sensor covering all the design specifications together with the requirements of common man. The speed controlling mechanism can be added in this project which will make it work according to the intensity and speed of water coming on the sensor. The basic maneuvering is done only to make it cost effective and reliable.
