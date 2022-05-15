@@ -1,4 +1,4 @@
-# M3_CarWiperControlSystem
+# M3_STM32_CarWipersControlSystem
 
 | Codacy | Codiga    | Codiga |  
 | :----- | :-------- | :----- | 
